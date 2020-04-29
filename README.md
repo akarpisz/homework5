@@ -10,6 +10,5 @@ the cells[1] have editable text areas within them, allowing users to add text.
 
 the cells[2], have save buttons within them. 
 
-when a button in the cells[2] are clicked, the current text in the previous cell is saved to local storage, under the id assigned it the button/cell pair. the table then re-renders, and when it does, it displays the appropriate text in the appropriate cell based on the id.
+when a button in the cells[2] are clicked, the current text in the previous cell is saved to local storage, under the id assigned to the parent cell pair. the table then re-renders, and when it does, it displays the appropriate text in the appropriate cell.
 
-an update may include assigning the ID on only the text area's cell as opposed to the button and text area pair.

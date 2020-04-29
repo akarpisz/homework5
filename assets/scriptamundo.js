@@ -65,8 +65,6 @@ $(document).ready(function () {
       //assigns cell2 its id
       $(cell2).attr("id", i);
 
-      //assigns the same id to the button
-      $(button).attr("id", i);
       //adds "SAVE" to the button face
       button.text("SAVE");
       //append the button to cell3
