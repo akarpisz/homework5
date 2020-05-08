@@ -34,7 +34,7 @@ $(document).ready(function () {
     var table = $(".blocks");
     //moment.js "moment", modified to the start time of the planner
     var modSM = moment().hours(7).minutes(0).seconds(0).milliseconds(0);
-
+    table.children().not("tr:first").empty();
     for (var i = 0;i < 12; i++) {
       //new elements to be created in each row
       row = $("<tr>");
