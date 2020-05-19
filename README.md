@@ -1,5 +1,8 @@
 # homework5
 
+https://akarpisz.github.io/homework5
+
+
 this program uses the moment.js library to render a dynamic day planner. events can be entered and saved in the browsers local storage. the planner itself is a table with functional child elements appended to to individual cells. 
 
 the moment.js library allows moments to be captured, modified, formatted, and compared with other "moments". In this day planner, the current date (m/d) and time (h/m/s) are continuously updated in 1 second intervals, displayed at the top. 
